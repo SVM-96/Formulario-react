@@ -1,0 +1,15 @@
+/* Estilos personalizados para el formulario */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Estilos para los placeholders */
+.form-control::placeholder {
+  color: #6c757d; /* Color de texto gris similar al placeholder predeterminado de Bootstrap */
+}
+
+/* Estilos adicionales para resaltar el campo activo */
+.form-control:focus {
+  border-color: #007bff; /* Cambia el color del borde al azul cuando el campo está activo */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Agrega un resplandor al campo activo */
+}

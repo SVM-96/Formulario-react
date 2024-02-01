@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #aaff00, #ffff00);
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon {
+  border: 1px solid black;
+  padding: 12px;
+  margin: 7px;
+  border-radius: 50%;
+}
+
+/* Estilos adicionales si lo deseas */
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
